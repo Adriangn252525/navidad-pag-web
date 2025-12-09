@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Regalos de Navidad 2025</title>
+    <link rel="stylesheet" href="estilo1.css">
+    <style>
+        .contacto-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 40px;
+            align-items: center;
+        }
+        
+        .info-contacto {
+            background: #3e3e3e;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .info-contacto h3 {
+            color: #c41e3a;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .info-item {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+        
+        .info-item strong {
+            color: #c41e3a;
+        }
+        
+        .carta-papa-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            padding: 40px;
+            align-items: stretch;
+        }
+        
+        .papa-noel {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .papa-noel img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .papa-noel h3 {
+            color: #c41e3a;
+            font-size: 28px;
+        }
+        
+        .formulario-carta {
+            background: #fff8dc;
+            padding: 30px;
+            border-radius: 10px;
+            border: 3px solid #c41e3a;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .formulario-carta h3 {
+            color: #c41e3a;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .formulario-carta textarea {
+            width: 100%;
+            min-height: 300px;
+            padding: 15px;
+            border: 2px solid #c41e3a;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            resize: vertical;
+        }
+        
+        .formulario-carta input {
+            width: 100%;
+            padding: 12px;
+            margin: 15px 0;
+            border: 2px solid #c41e3a;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .formulario-carta button {
+            width: 100%;
+            padding: 15px;
+            background: #c41e3a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        
+        .formulario-carta button:hover {
+            background: #a01830;
+        }
+
+        .sidebar {
+            background: #3e3e3e;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .sidebar h3 {
+            color: #c41e3a;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .sidebar img {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .calendario {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #c41e3a;
+        }
+
+        .redes-sociales {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .redes-sociales a {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #c41e3a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .redes-sociales a:hover {
+            background: #a01830;
+        }
+        
+        @media (max-width: 768px) {
+            .contacto-container,
+            .carta-papa-container {
+                grid-template-columns: 1fr;
+            }
+
+            .carta-papa-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <nav>
+             <div class="logo-informatica">
+                <img src="imagenes/logo jhon.jpeg" alt="Logo Informática">
+                <span>INFORMÁTICA</span>
+            </div>
+            <ul>
+                <li><a href="index.html">🏠 Inicio</a></li>
+                <li><a href="pagina1.html">🎁 Regalos</a></li>
+                <li><a href="pagina2.html">✨ Tradiciones</a></li>
+                <li><a href="contacto.html" class="active">📧 Contacto</a></li>
+            </ul>
+            <div class="logo-informatica">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNAcOKHmmeNeCfIAiBOXxwEAfnDeskoRgAQ&s" alt="Logo Informática">
+                <span>INFORMÁTICA</span>
+            </div>
+        </nav>
+        
+        <header>
+            <p></p>
+            <p></p>
+            <h1>📧 ¡Contáctanos! 📧</h1>
+            <div class="decoracion">❄️ ⛄ 🎅 🎁 ❄️</div>
+        </header>
+        
+        <main>
+            <!-- SECCIÓN DE CONTACTO -->
+            <div class="contenedor">
+                <h2>Información de Contacto</h2>
+                <div class="contacto-container">
+                    <div class="info-contacto">
+                        <h3>¡Ponte en Contacto Conmigo!</h3>
+                        <div class="info-item">
+                            <strong>👤 Nombre:</strong><br>
+                            Jhon Adrian Guachalla Nina
+                        </div>
+                        <div class="info-item">
+                            <strong>📚 Curso:</strong><br>
+                            2do Semestre
+                        </div>
+                        <div class="info-item">
+                            <strong>📱 Teléfono:</strong><br>
+                            +591 740-74
+                        </div>
+                        <div class="info-item">
+                            <strong>💻 Asignatura:</strong><br>
+                            Informática
+                        </div>
+                        <div class="info-item">
+                            <strong>🎄 Mensaje:</strong><br>
+                            ¡Gracias por visitar nuestro sitio de Navidad! Si tienes preguntas o sugerencias, no dudes en contactarme.
+                        </div>
+                    </div>
+                    <div class="info-contacto">
+                        <h3>¿Por qué visitarnos?</h3>
+                        <div class="info-item">✨ Ideas de regalos navideños únicas</div>
+                        <div class="info-item">🎁 Categorías especializadas por edad</div>
+                        <div class="info-item">📦 Consejos para envolver regalos</div>
+                        <div class="info-item">✍️ Escribe tu carta para Papá Noel</div>
+                        <div class="info-item">🌟 Descubre tradiciones navideñas</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECCIÓN CARTA A PAPÁ NOEL -->
+            <div class="contenedor">
+                <h2>📝 Escribe tu Carta a Papá Noel 🎅</h2>
+                <p class="contenido-texto">¡Comparte tus deseos navideños! Papá Noel está esperando tu carta. Cuéntale qué te gustaría recibir esta Navidad 2025.</p>
+                
+                <div class="carta-papa-container">
+                    <div class="papa-noel">
+                        <img src="https://www.65ymas.com/uploads/s1/48/49/11/bigstock-santa-pointing-at-wish-list-878152.jpeg" alt="Papá Noel">
+                        <h3>¡Hola! 👋</h3>
+                        <p>Soy Papá Noel y estoy leyendo tu carta con mucha alegría 😊</p>
+                    </div>
+                    
+                    <div class="formulario-carta">
+                        <h3>Mi Carta a Papá Noel 🎄</h3>
+                        <form id="cartaForm">
+                            <input type="text" id="nombre" placeholder="Tu nombre" required>
+                            <input type="email" id="email" placeholder="Tu correo (opcional)">
+                            <textarea id="carta" placeholder="Escribe aquí tu carta para Papá Noel... Cuéntale qué deseas recibir esta Navidad 🎁" required></textarea>
+                            <button type="submit">✨ Enviar mi Carta a Papá Noel ✨</button>
+                        </form>
+                        <p style="text-align: center; margin-top: 15px; color: #c41e3a; font-size: 12px;">
+                            Tu carta será entregada al Polo Norte 🌍
+                        </p>
+                    </div>
+
+                    <div class="sidebar">
+                        <h3>🎅 Papá Noel</h3>
+                        <img src="https://static.vecteezy.com/system/resources/previews/053/988/039/non_2x/christmas-horizontal-banner-with-santa-claus-gifts-and-sleigh-on-a-blue-background-in-a-flat-cartoon-style-illustration-for-poster-banner-invitation-etc-vector.jpg" alt="Papá Noel">
+                        
+                        <div class="calendario">
+                            <h4 style="color: #c41e3a; margin-bottom: 10px;">📅 Diciembre 2025</h4>
+                            <p style="font-size: 12px; color: #333;">Falta poco para Navidad</p>
+                            <p style="font-size: 18px; font-weight: bold; color: #c41e3a; margin-top: 10px;">25 de Diciembre</p>
+                        </div>
+
+                        <div class="redes-sociales">
+                            <h4 style="color: #c41e3a; margin-bottom: 10px;">Síguenos 📱</h4>
+                            <a href="https://www.facebook.com/share/1GQea143DU/">👍 Facebook</a>
+                            <a href="https://youtube.com/@santatelevision?si=nH-SCuApG_i_UwD3">🎞️ YouTube</a>
+                            <a href="https://vm.tiktok.com/ZMDJtyRjW/">🎵 TikTok</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 - Jhon Adrian Guachalla Nina | 2do Semestre</p>
+            <p>La Navidad es el tiempo de dar, compartir amor y crear recuerdos eternos ❄️🎄✨</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('cartaForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nombre = document.getElementById('nombre').value;
+            alert(`¡Gracias ${nombre}! Tu carta ha sido enviada a Papá Noel. 🎅✨`);
+            this.reset();
+        });
+    </script>
+</body>
+</html>
